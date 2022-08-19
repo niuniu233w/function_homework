@@ -55,17 +55,17 @@
 
 
 //编写一个函数实现n的k次方
-int pow(int n, int k)
-{
-	if (k)
-		return n * pow(n, k - 1);
-	else
-		return 1;
-}
-int main()
-{
-	int n = 0, k = 0;
-	scanf("%d%d", &n, &k);
-	printf("%d的%d次方为：%d", n, k, pow(n, k));
-	return 0;
-}
+//int pow(int n, int k)
+//{
+//	if (k)
+//		return n * pow(n, k - 1);
+//	else
+//		return 1;
+//}
+//int main()
+//{
+//	int n = 0, k = 0;
+//	scanf("%d%d", &n, &k);
+//	printf("%d的%d次方为：%d", n, k, pow(n, k));
+//	return 0;
+//}
